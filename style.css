@@ -1,0 +1,88 @@
+.top {
+    border-color: #890303;
+    border-style: solid;
+    border-width: 3px;
+    height: 600px;
+}
+
+.top_center {
+    border-color: #9a0372;
+    border-style: solid;
+    border-width: 3px;
+    height: 597px;
+    margin-left: 10%;
+    margin-right: 10%;
+    overflow: hidden;
+}
+.menu {
+    border-color: #249a03;
+    border-style: solid;
+    border-width: 3px;
+
+}
+
+.menu:hover::before {
+    color: red;
+    content: "меню сайта";
+}
+
+.top_info {
+    margin-top: 10%;
+    padding: 5%;
+    border-color: #1c8993;
+    border-style: solid;
+    border-width: 3px;
+    width: 50%;
+}
+.top_h1:hover::after {
+    color: red;
+    content: "Н1 из ДЗ1";
+}
+.top_p:hover::after {
+    color: red;
+    content: "параграф с произвольным текстом1";
+}
+
+.top_info:hover::before {
+    color: red;
+    content: "Н1 из ДЗ1 и параграф с произвольным текстом1";
+}
+
+.body {
+    border-color: #9a0372;
+    border-style: solid;
+    border-width: 3px;
+    height: 597px;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    overflow: hidden;
+}
+
+.body_h3 {
+    text-align: center;
+    height: 10%;
+}
+
+.body_main {
+    border-color: #3aa604;
+    border-style: solid;
+    border-width: 3px;
+    height: 400px;
+    padding: 5%;
+}
+
+.body_infocard {
+    width: 27%;
+    border-color: #9a0372;
+    border-style: solid;
+    border-width: 3px;
+    float: right;
+    margin-left: 2%;
+    margin-right: 2%;
+    height: 300px;
+}
+
+.body_contacts {
+    float: left;
+}
